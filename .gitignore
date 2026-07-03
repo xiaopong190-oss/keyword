@@ -1,0 +1,8 @@
+.env
+.env.local
+.chrome-profile/
+node_modules/
+data/*.db
+data/*.db-*
+data/gist-id.txt
+analysis-output/

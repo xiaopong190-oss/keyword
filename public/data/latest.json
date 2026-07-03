@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-07-02T23:43:10.212Z",
+  "products": [
+    {
+      "id": 5,
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-02T16:40:20.345Z",
+      "status": "success",
+      "title": "Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)",
+      "price": "$35.99",
+      "rating": 4.5,
+      "reviews": 70,
+      "bsr_json": "[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+      "source_url": "https://www.amazon.com/dp/B0GJ3XVBHB",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"marketplace\":\"amazon.com\",\"capturedAt\":\"2026-07-02T16:40:20.345Z\",\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB\",\"status\":\"success\",\"navigationError\":null,\"pageTitle\":\"Amazon.com: FuseBrew Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green): Home & Kitchen\",\"title\":\"Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)\",\"price\":\"$35.99\",\"rating\":4.5,\"reviews\":70,\"bsr\":[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}],\"captcha\":false,\"notes\":[]}",
+      "bsr": [
+        {
+          "rank": 52941,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 76,
+          "category": "Electric Kettles"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": 5,
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-02T16:40:22.589Z",
+      "organic_rank": null,
+      "page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T16:40:22.589Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
+    }
+  ],
+  "productHistory": [
+    {
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-02T08:55:27.524Z",
+      "reviews": 70,
+      "rating": 4.5,
+      "bsr_json": "[{\"rank\":52912,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+      "bsr": [
+        {
+          "rank": 52912,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 76,
+          "category": "Electric Kettles"
+        }
+      ]
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-02T16:31:49.109Z",
+      "reviews": 70,
+      "rating": 4.5,
+      "bsr_json": "[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+      "bsr": [
+        {
+          "rank": 52941,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 76,
+          "category": "Electric Kettles"
+        }
+      ]
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-02T16:32:33.751Z",
+      "reviews": 70,
+      "rating": 4.5,
+      "bsr_json": "[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+      "bsr": [
+        {
+          "rank": 52941,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 76,
+          "category": "Electric Kettles"
+        }
+      ]
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-02T16:40:20.345Z",
+      "reviews": 70,
+      "rating": 4.5,
+      "bsr_json": "[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+      "bsr": [
+        {
+          "rank": 52941,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 76,
+          "category": "Electric Kettles"
+        }
+      ]
+    }
+  ],
+  "keywordHistory": [
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-02T08:55:29.851Z",
+      "organic_rank": null,
+      "status": "not_found_within_range"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-02T15:35:50.290Z",
+      "organic_rank": null,
+      "status": "not_found_within_range"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-02T16:31:51.173Z",
+      "organic_rank": null,
+      "status": "not_found_within_range"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-02T16:32:35.842Z",
+      "organic_rank": null,
+      "status": "not_found_within_range"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-02T16:40:22.589Z",
+      "organic_rank": null,
+      "status": "not_found_within_range"
+    }
+  ],
+  "reviewItems": []
+}

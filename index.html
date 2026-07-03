@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amazon ASIN 监控台</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="context.css" />
+  <link rel="stylesheet" href="ui-pages.css" />
+  <link rel="stylesheet" href="competitor-slots.css" />
+  <link rel="stylesheet" href="provider-setting.css" />
+  <link rel="stylesheet" href="real-report.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="logo">A</span><div><strong>ASIN Radar</strong><small>选品数据工作台</small></div></div>
+    <nav>
+      <button class="nav active" data-target="overviewSection">◫ <span>数据总览</span></button>
+      <button class="nav" data-target="keywordSection">⌕ <span>关键词排名</span></button>
+      <button class="nav" data-target="reviewSection">★ <span>评论洞察</span></button>
+      <button class="nav" data-target="compareSection">↗ <span>趋势对比</span></button>
+      <button class="nav" data-target="settingsSection">⚙ <span>采集设置</span></button>
+    </nav>
+    <div class="sync-card"><i></i><div><strong id="syncStatus">上次采集成功</strong><small id="syncDetail">今天 08:30 · 5 个 ASIN</small></div></div>
+  </aside>
+
+  <main>
+    <header>
+      <div><p class="eyebrow">OVERVIEW</p><h1>商品数据总览</h1><p class="subtitle">追踪排名、评论与市场信号，发现值得行动的变化。</p></div>
+      <div class="actions"><button class="ghost" id="collectNow">↻ 立即批量采集</button><button class="ghost" id="exportData">⇩ 导出数据</button><button class="primary" id="addProduct">＋ 添加商品</button></div>
+    </header>
+
+    <section class="stats page-anchor" id="overviewSection">
+      <article><span class="stat-icon blue">▣</span><div><p>监控 ASIN</p><strong id="asinCount">5</strong><small>上限 10 个</small></div></article>
+      <article><span class="stat-icon violet">⌕</span><div><p>追踪关键词</p><strong id="keywordCount">19</strong><small>平均 3.8 个 / ASIN</small></div></article>
+      <article><span class="stat-icon green">↑</span><div><p>排名上升关键词</p><strong id="risingKeywordCount">0</strong><small class="positive" id="risingKeywordDetail">等待历史数据</small></div></article>
+      <article><span class="stat-icon orange">★</span><div><p>已采集评论正文</p><strong id="reviewItemCount">0</strong><small id="reviewItemDetail">成功采集后自动统计</small></div></article>
+    </section>
+
+    <section class="panel products-panel">
+      <div class="panel-head"><div><h2>商品监控</h2><p>点击商品查看关键词和评论详情</p></div><div class="filter"><button class="active">全部 5</button><button>需关注 2</button><button>增长中 3</button></div></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th>商品</th><th>BSR 排名</th><th>关键词</th><th>评分 / 评论</th><th>近 7 天评论</th><th>状态</th><th></th></tr></thead>
+        <tbody id="productRows"></tbody>
+      </table></div>
+    </section>
+
+    <section class="lower-grid">
+      <article class="panel chart-panel page-anchor" id="keywordSection">
+        <div class="panel-head chart-title"><div><p class="context-label">当前查看商品</p><h2 id="chartProduct">正在读取数据…</h2><p><b id="chartAsin">ASIN · —</b>　数字越低，排名越好</p></div><select id="productSelect"></select></div>
+        <div class="ranking-summary" id="rankingSummary"></div>
+        <div class="legend" id="keywordLegend"></div>
+        <div class="chart" id="keywordChart"></div>
+      </article>
+      <article class="panel review-panel page-anchor" id="reviewSection">
+        <div class="panel-head"><div><p class="context-label" id="sentimentContext">等待选择 ASIN</p><h2>评论情绪洞察</h2><p>该 ASIN 已采集评论分析</p></div><button class="text-btn">查看全部 →</button></div>
+        <div class="sentiment" id="sentimentBody"></div>
+        <div class="topics" id="reviewTopics"><h3>评论高频主题</h3><span>暂无评论正文</span></div>
+      </article>
+    </section>
+
+    <section class="panel analysis-panel">
+      <div class="panel-head"><div><p class="context-label">PERIODIC ANALYSIS</p><h2>单 ASIN 周期分析</h2><p>选择商品和周期，生成可复核的阶段性结论</p></div><div class="analysis-controls"><select id="analysisAsin"></select><div class="period-toggle"><button class="active" data-days="7">近 7 天</button><button data-days="15">近 15 天</button><button data-days="30">近 30 天</button></div><button class="primary" id="generateReport">生成分析</button></div></div>
+      <div class="analysis-body" id="analysisBody">
+        <div class="analysis-empty"><span>⌁</span><strong>选择一个 ASIN 开始分析</strong><p>系统将汇总 BSR、关键词排名、Review 增长与评论情绪。</p></div>
+      </div>
+    </section>
+    <section class="panel competitor-panel page-anchor" id="compareSection"><div class="panel-head"><div><p class="context-label">COMPETITOR COMPARISON</p><h2>竞品对比</h2><p>竞品由你指定，并使用与主ASIN相同的关键词</p></div><button class="primary" id="addCompetitor">＋ 添加竞品</button></div><div class="competitor-form" id="competitorForm"><label>我们的 ASIN<select id="comparePrimary"></select></label><label>竞品 ASIN<input id="competitorAsin" maxlength="10" placeholder="输入10位竞品ASIN" /></label><label>共同关键词<input id="competitorKeywords" placeholder="多个关键词用逗号分隔" /></label><button class="primary" id="saveCompetitor">保存并加入采集</button></div><div class="competitor-list" id="competitorList"></div></section>
+    <section class="panel settings-panel page-anchor" id="settingsSection"><div class="panel-head"><div><p class="context-label">COLLECTION SETTINGS</p><h2>采集设置</h2><p>采集代码独立运行，不消耗Codex额度</p></div></div><div class="provider-setting"><div><small>分析服务</small><strong>选择生成报告时使用的AI</strong><span>API密钥保存在本机 .env.local，不会显示在网页中</span></div><select id="analysisProvider"><option value="auto">自动选择：Codex → DeepSeek → OpenAI</option><option value="codex">仅使用本机 Codex</option><option value="deepseek">仅使用 DeepSeek API</option><option value="openai">仅使用 OpenAI API</option></select><b id="providerBadge">自动选择</b></div><div class="settings-grid"><article><small>执行频率</small><strong>每天 2 次</strong><span>09:00 / 21:00</span></article><article><small>数据保存</small><strong>SQLite + Gist</strong><span>本地完整历史，云端摘要</span></article><article><small>当前分析策略</small><strong id="providerSummary">Codex → DeepSeek → OpenAI</strong><span>只在生成报告时调用</span></article><article><small>搜索范围</small><strong>关键词前 2 页</strong><span>未找到时明确记录</span></article></div></section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-card"><button class="close" id="closeModal">×</button><p class="eyebrow">NEW TRACKER</p><h2>添加监控商品</h2><p>输入 ASIN，并添加 3–5 个需要跟踪的关键词。</p><label>ASIN<input id="newAsin" placeholder="例如 B0XXXXXXXX" maxlength="10" /></label><label>关键词（每行一个）<textarea id="newKeywords" placeholder="主关键词&#10;细分关键词&#10;长尾关键词"></textarea></label><div class="modal-actions"><button class="ghost" id="cancelModal">取消</button><button class="primary" id="saveProduct">开始监控</button></div></div></div>
+  <div class="toast" id="toast">商品已加入监控</div>
+  <script src="app.js"></script>
+</body>
+</html>

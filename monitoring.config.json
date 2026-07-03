@@ -1,0 +1,22 @@
+{
+  "marketplace": "amazon.com",
+  "maxSearchPages": 2,
+  "maxReviewPages": 1,
+  "retryAttempts": 3,
+  "retryDelaysMs": [
+    30000,
+    120000
+  ],
+  "stageTimeoutMs": 60000,
+  "delayBetweenRequestsMs": 12000,
+  "products": [
+    {
+      "asin": "B0GJ3XVBHB",
+      "enabled": true,
+      "keywords": [
+        "gooseneck electric kettle"
+      ],
+      "competitors": []
+    }
+  ]
+}
