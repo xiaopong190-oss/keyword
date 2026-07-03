@@ -7,7 +7,8 @@ try { $plain = [Runtime.InteropServices.Marshal]::PtrToStringBSTR($ptr) } finall
 if ([string]::IsNullOrWhiteSpace($plain)) { throw 'Token 不能为空' }
 $existing = if (Test-Path $envFile) { Get-Content $envFile } else { @() }
 $kept = @($existing | Where-Object { $_ -notmatch '^GITHUB_GIST_(TOKEN|ID)=' })
-Set-Content -LiteralPath $envFile -Value @($kept + "GITHUB_GIST_TOKEN=$plain" + 'GITHUB_GIST_ID=') -Encoding utf8
+$content = (@($kept + "GITHUB_GIST_TOKEN=$plain" + 'GITHUB_GIST_ID=') -join [Environment]::NewLine) + [Environment]::NewLine
+[IO.File]::WriteAllText($envFile, $content, [Text.UTF8Encoding]::new($false))
 $plain = $null
 $node = 'C:\Users\15869\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe'
 Push-Location $root
