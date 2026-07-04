@@ -1,0 +1,32 @@
+name: Apply ASIN Configuration Request
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  apply:
+    if: startsWith(github.event.issue.title, '[ASIN Radar]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate and apply request
+        run: node apply-config-request.mjs
+      - name: Commit configuration
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add monitoring.config.json
+          git diff --cached --quiet || git commit -m "Apply ASIN request #${{ github.event.issue.number }}"
+          git push
+      - name: Close completed request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --comment "配置已验证并保存，将在下一次采集时生效。"
