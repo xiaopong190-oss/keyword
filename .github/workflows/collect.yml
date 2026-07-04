@@ -24,4 +24,5 @@ jobs:
         env:
           GITHUB_GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
           GITHUB_GIST_ID: 2a69455c29b1997119a1dd91e4c679ae
+          CONFIG_API_URL: https://asin-radar-config.xiaopong190-asin-radar.workers.dev
         run: node run-collection.mjs

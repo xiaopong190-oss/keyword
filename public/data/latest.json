@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-04T08:54:09.823Z",
+  "generatedAt": "2026-07-04T13:09:20.255Z",
   "products": [
     {
-      "id": 5,
+      "id": 6,
       "asin": "B0GJ3XVBHB",
-      "captured_at": "2026-07-02T16:40:20.345Z",
+      "captured_at": "2026-07-04T12:48:12.447Z",
       "status": "success",
       "title": "Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)",
-      "price": "$35.99",
+      "price": "$32.99",
       "rating": 4.5,
-      "reviews": 70,
-      "bsr_json": "[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+      "reviews": 71,
+      "bsr_json": "[{\"rank\":61987,\"category\":\"Home & Kitchen\"},{\"rank\":85,\"category\":\"Electric Kettles\"}]",
       "source_url": "https://www.amazon.com/dp/B0GJ3XVBHB",
-      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"marketplace\":\"amazon.com\",\"capturedAt\":\"2026-07-02T16:40:20.345Z\",\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB\",\"status\":\"success\",\"navigationError\":null,\"pageTitle\":\"Amazon.com: FuseBrew Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green): Home & Kitchen\",\"title\":\"Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)\",\"price\":\"$35.99\",\"rating\":4.5,\"reviews\":70,\"bsr\":[{\"rank\":52941,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}],\"captcha\":false,\"notes\":[]}",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"pageAsin\":\"B0GJ3XVBHB\",\"canonicalAsin\":\"B0GJ3XVBHB\",\"asinVerified\":true,\"marketplace\":\"amazon.com\",\"capturedAt\":\"2026-07-04T12:48:12.447Z\",\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB\",\"status\":\"success\",\"navigationError\":null,\"pageTitle\":\"Amazon.com: FuseBrew Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green): Home & Kitchen\",\"title\":\"Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)\",\"price\":\"$32.99\",\"rating\":4.5,\"reviews\":71,\"bsr\":[{\"rank\":61987,\"category\":\"Home & Kitchen\"},{\"rank\":85,\"category\":\"Electric Kettles\"}],\"bsrEvidence\":\"Product information Item details Brand Name FuseBrew Included Components Kettle base Model Name Gooseneck Electric Kettle Model Number FB001 Best Sellers Rank #61,987 in Home & Kitchen (See Top 100 in Home & Kitchen) #85 in Electric Kettles ASIN B0GJ3XVBHB Customer Reviews 4.5 4.5 out of 5 stars (71) var dpAcrHasRegisteredArcLinkClickAction; P.when('A', 'ready').execute(function(A) { if (dpAcrHasRegisteredArcLinkClickAction !== true) { dpAcrHasRegisteredArcLinkClickAction = true; A.declarative( 'acrLink-click-metrics', 'click', { \\\"allowLinkDefault\\\": true }, function (event) { if (window.ue) { ue.count(\\\"acrLinkClickCount\\\", (ue.count(\\\"acrLinkClickCount\\\") || 0) + 1); } } ); } }); P.when('A', 'cf').execute(function(A) { A.declarative('acrStarsLink-click-metrics', 'click', { \\\"allowLinkDefault\\\" \",\"embeddedReviews\":[],\"captcha\":false,\"notes\":[],\"validEmbeddedReviews\":[]}",
       "bsr": [
         {
-          "rank": 52941,
+          "rank": 61987,
           "category": "Home & Kitchen"
         },
         {
-          "rank": 76,
+          "rank": 85,
           "category": "Electric Kettles"
         }
       ]
@@ -27,14 +27,14 @@
   ],
   "keywords": [
     {
-      "id": 5,
+      "id": 6,
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
-      "captured_at": "2026-07-02T16:40:22.589Z",
+      "captured_at": "2026-07-04T12:48:14.400Z",
       "organic_rank": null,
-      "page": null,
-      "status": "not_found_within_range",
-      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T16:40:22.589Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
+      "page": 1,
+      "status": "sponsored_only",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-04T12:48:14.400Z\",\"organicRank\":null,\"page\":1,\"status\":\"sponsored_only\",\"checkedPages\":1,\"sourceUrl\":\"https://www.amazon.com/s?k=gooseneck+electric+kettle\",\"navigationError\":null}"
     }
   ],
   "productHistory": [
@@ -105,6 +105,23 @@
           "category": "Electric Kettles"
         }
       ]
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-04T12:48:12.447Z",
+      "reviews": 71,
+      "rating": 4.5,
+      "bsr_json": "[{\"rank\":61987,\"category\":\"Home & Kitchen\"},{\"rank\":85,\"category\":\"Electric Kettles\"}]",
+      "bsr": [
+        {
+          "rank": 61987,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 85,
+          "category": "Electric Kettles"
+        }
+      ]
     }
   ],
   "keywordHistory": [
@@ -142,6 +159,13 @@
       "captured_at": "2026-07-02T16:40:22.589Z",
       "organic_rank": null,
       "status": "not_found_within_range"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-04T12:48:14.400Z",
+      "organic_rank": null,
+      "status": "sponsored_only"
     }
   ],
   "reviewItems": []
