@@ -18,16 +18,17 @@ const summary={startedAt:new Date().toISOString(),products:[],keywords:[],review
 
 for(const item of config.products.filter(x=>x.enabled)){
   const product=await retryStage({stage:'product',script:'playwright-collector.cjs',args:[item.asin],accept:x=>x.result?.status==='success'});
-  if(product.ok){saveProduct(db,product.value.result);if(product.value.result.embeddedReviews?.length)saveReviews(db,product.value.result.embeddedReviews);summary.products.push({...product.value.result,attempts:product.attempt})}else{summary.stageFailures.push({asin:item.asin,...product});continue}
+  if(product.ok){const embedded=product.value.result.embeddedReviews||[],validEmbedded=embedded.filter(x=>x.body&&x.date&&x.rating>=1&&x.rating<=5);product.value.result.validEmbeddedReviews=validEmbedded;saveProduct(db,product.value.result);if(validEmbedded.length)saveReviews(db,validEmbedded);summary.products.push({...product.value.result,attempts:product.attempt})}else{summary.stageFailures.push({asin:item.asin,...product});continue}
 
   for(const keyword of item.keywords||[]){const result=await retryStage({stage:'keyword',script:'keyword-collector.cjs',args:[item.asin,keyword,String(config.maxSearchPages||2)],accept:x=>['found','not_found_within_range','sponsored_only'].includes(x.status)});if(result.ok){saveKeyword(db,result.value);summary.keywords.push({...result.value,attempts:result.attempt})}else{summary.stageFailures.push({asin:item.asin,keyword,...result})}}
 
-  if(product.value.result.embeddedReviews?.length){summary.reviews.push({asin:item.asin,status:'success',count:product.value.result.embeddedReviews.length,source:'product_page',attempts:product.attempt})}else{const reviews=await retryStage({stage:'reviews',script:'review-collector.cjs',args:[item.asin,String(config.maxReviewPages||1)],accept:x=>x.status==='success'});if(reviews.ok){saveReviews(db,reviews.value.reviews||[]);summary.reviews.push({asin:item.asin,status:'success',count:reviews.value.reviews.length,source:'review_page',attempts:reviews.attempt})}else{summary.stageFailures.push({asin:item.asin,...reviews});if(reviews.failures.some(x=>x.result==='needs_user'))summary.needsUser.push({asin:item.asin,stage:'reviews'})}}
+  if(product.value.result.validEmbeddedReviews?.length){summary.reviews.push({asin:item.asin,status:'success',count:product.value.result.validEmbeddedReviews.length,reportedTotal:product.value.result.reviews,source:'product_page',attempts:product.attempt})}else{const reviews=await retryStage({stage:'reviews',script:'review-collector.cjs',args:[item.asin,String(config.maxReviewPages||1)],accept:x=>x.status==='success'&&x.reviews?.length>0});if(reviews.ok){saveReviews(db,reviews.value.reviews||[]);summary.reviews.push({asin:item.asin,status:'success',count:reviews.value.reviews.length,reportedTotal:product.value.result.reviews,validation:reviews.value.validation,source:'review_page',attempts:reviews.attempt})}else{summary.reviews.push({asin:item.asin,status:'failed',count:0,reportedTotal:product.value.result.reviews,reason:product.value.result.reviews>0?'reported_reviews_but_no_valid_bodies':'no_reviews_reported'});summary.stageFailures.push({asin:item.asin,...reviews});if(reviews.failures.some(x=>x.result==='needs_user'))summary.needsUser.push({asin:item.asin,stage:'reviews'})}}
   if(config.delayBetweenRequestsMs)await sleep(config.delayBetweenRequestsMs);
 }
 
 await mkdir('public/data',{recursive:true});
-await writeFile('public/data/latest.json',JSON.stringify(dashboardData(db),null,2));
+const latest=dashboardData(db);latest.collectionHealth={generatedAt:new Date().toISOString(),reviews:summary.reviews,stageFailures:summary.stageFailures};
+await writeFile('public/data/latest.json',JSON.stringify(latest,null,2));
 try{summary.gist=await syncToGist()}catch(e){summary.gist={status:'failed',error:e.message}}
 await mkdir('data/runs',{recursive:true});summary.finishedAt=new Date().toISOString();
 const runFile=`data/runs/${summary.startedAt.replace(/[:.]/g,'-')}.json`;await writeFile(runFile,JSON.stringify(summary,null,2));

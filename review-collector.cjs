@@ -9,18 +9,22 @@ if(!/^[A-Z0-9]{10}$/.test(asin)){console.error('Invalid ASIN');process.exit(2)}
 const clean=s=>s?.replace(/\s+/g,' ').trim()||null;
 const star=s=>{const m=String(s||'').match(/[0-5](?:\.[0-9])?/);return m?Number(m[0]):null};
 const date=s=>{const m=String(s||'').match(/(?:on|于)\s+(.+)$/i);if(!m)return null;const d=new Date(m[1]);return Number.isNaN(d.valueOf())?null:d.toISOString().slice(0,10)};
+const validation={seen:0,accepted:0,rejected:0,reasons:{missingBody:0,missingRating:0,missingDate:0,duplicate:0}};
 
 async function extract(page,items){
   const cards=page.locator('[data-hook="review"], [data-hook="review-card"]');
   const count=await cards.count();
   for(let i=0;i<count;i++){
+    validation.seen++;
     const c=cards.nth(i),id=await c.getAttribute('id');
     const get=async selectors=>{for(const s of selectors){const x=c.locator(s);if(await x.count()){const v=clean(await x.first().textContent().catch(()=>null));if(v)return v}}return null};
     const dateText=await get(['[data-hook="review-date"]','.review-date']);
     const item={asin,capturedAt:new Date().toISOString(),date:date(dateText),rating:star(await get(['[data-hook="review-star-rating"]','[data-hook="cmps-review-star-rating"]','i[data-hook] .a-icon-alt'])),title:await get(['[data-hook="review-title"]','.review-title']),body:await get(['[data-hook="review-body"]','.review-text']),verified:/verified purchase/i.test((await c.textContent())||'')};
-    if(!item.body&&!item.title)continue;
+    if(!item.body){validation.rejected++;validation.reasons.missingBody++;continue}
+    if(item.rating==null||item.rating<1||item.rating>5){validation.rejected++;validation.reasons.missingRating++;continue}
+    if(!item.date){validation.rejected++;validation.reasons.missingDate++;continue}
     item.reviewKey=id||crypto.createHash('sha256').update(`${asin}|${item.date}|${item.title}|${item.body}`).digest('hex');
-    if(!items.some(x=>x.reviewKey===item.reviewKey))items.push(item);
+    if(items.some(x=>x.reviewKey===item.reviewKey)){validation.rejected++;validation.reasons.duplicate++;continue}items.push(item);validation.accepted++;
   }
   return count;
 }
@@ -40,5 +44,5 @@ async function extract(page,items){
     fallbackUsed=true;for(let pageNo=1;pageNo<=maxPages;pageNo++){try{const u=new URL(reviewLink,'https://www.amazon.com');u.searchParams.set('sortBy','recent');u.searchParams.set('pageNumber',String(pageNo));await page.goto(u.href,{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(2500);sourceUrl=page.url();pageTitle=await page.title().catch(()=>pageTitle);body=(await page.locator('body').textContent().catch(()=>''))||'';if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`)){status='needs_user';break}if(sourceUrl.startsWith('chrome-error:')||body.trim().length<100)break;observedPage=true;const before=items.length;await extract(page,items);if(items.length===before)break}catch(e){navigationError=e.name||'review_navigation_error';break}}
   }
   if(items.length)status='success';else if(status!=='needs_user')status='partial';
-  await page.close();await context.close();console.log(JSON.stringify({asin,capturedAt:new Date().toISOString(),sourceUrl,navigationError,status,fallbackUsed,reviewLink,observedPage,pageTitle,bodyHint,reviews:items}));
+  await page.close();await context.close();console.log(JSON.stringify({asin,capturedAt:new Date().toISOString(),sourceUrl,navigationError,status,fallbackUsed,reviewLink,observedPage,pageTitle,bodyHint,validation,reviews:items}));
 })().catch(e=>{console.error(e.stack||e.message);process.exit(1)});
