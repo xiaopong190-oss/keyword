@@ -27,21 +27,18 @@ async function extract(page,items){
 
 (async()=>{
   const context=await chromium.launchPersistentContext(path.join(__dirname,'.chrome-profile'),{headless:true,channel:'chrome',locale:'en-US',timezoneId:'America/Los_Angeles',viewport:{width:1365,height:900},args:['--disable-blink-features=AutomationControlled']});
-  const items=[];let status='success',sourceUrl=null,navigationError=null,observedPage=false,fallbackUsed=false,pageTitle=null,bodyHint=null;
-  for(let pageNo=1;pageNo<=maxPages;pageNo++){
-    const page=await context.newPage();
-    await page.route('**/*',r=>['image','media','font'].includes(r.request().resourceType())?r.abort():r.continue());
-    try{await page.goto(`https://www.amazon.com/product-reviews/${asin}/?reviewerType=all_reviews&sortBy=recent&pageNumber=${pageNo}`,{waitUntil:'domcontentloaded',timeout:30000})}catch(e){navigationError=e.name||'navigation_error'}
-    await page.waitForTimeout(2500);sourceUrl=page.url();pageTitle=await page.title().catch(()=>null);const body=(await page.locator('body').textContent().catch(()=>''))||'';bodyHint=clean(body)?.slice(0,240)||null;
-    if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`)){status='needs_user';await page.close();break}
-    if(sourceUrl.startsWith('chrome-error:')||body.trim().length<100){status='partial';await page.close();break}
-    observedPage=true;const count=await extract(page,items);await page.close();if(count===0)break;
+  const items=[];let status='partial',sourceUrl=null,navigationError=null,observedPage=false,fallbackUsed=false,pageTitle=null,bodyHint=null,reviewLink=null;
+  const page=context.pages()[0]||await context.newPage();
+  await page.route('**/*',r=>['image','media','font'].includes(r.request().resourceType())?r.abort():r.continue());
+  // 先打开可访问率更高的商品页，并继承该页面产生的 Cookie 与真实评论链接。
+  try{await page.goto(`https://www.amazon.com/dp/${asin}#customerReviews`,{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(3500)}catch(e){navigationError=e.name||'product_navigation_error'}
+  sourceUrl=page.url();pageTitle=await page.title().catch(()=>null);let body=(await page.locator('body').textContent().catch(()=>''))||'';bodyHint=clean(body)?.slice(0,240)||null;
+  if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`))status='needs_user';
+  else if(!sourceUrl.startsWith('chrome-error:')&&body.trim().length>=100){observedPage=true;await extract(page,items);const links=page.locator('a[data-hook="see-all-reviews-link-foot"], #reviews-medley-footer a, a[href*="product-reviews"]');if(await links.count())reviewLink=await links.first().getAttribute('href')}
+  // 商品页没有内嵌正文时，使用页面实际给出的链接进入评论页，而不是猜测直链。
+  if(status!=='needs_user'&&reviewLink){
+    fallbackUsed=true;for(let pageNo=1;pageNo<=maxPages;pageNo++){try{const u=new URL(reviewLink,'https://www.amazon.com');u.searchParams.set('sortBy','recent');u.searchParams.set('pageNumber',String(pageNo));await page.goto(u.href,{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(2500);sourceUrl=page.url();pageTitle=await page.title().catch(()=>pageTitle);body=(await page.locator('body').textContent().catch(()=>''))||'';if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`)){status='needs_user';break}if(sourceUrl.startsWith('chrome-error:')||body.trim().length<100)break;observedPage=true;const before=items.length;await extract(page,items);if(items.length===before)break}catch(e){navigationError=e.name||'review_navigation_error';break}}
   }
-  // Amazon 偶尔对独立评论页返回空壳；回退到商品页内嵌评论区。
-  if(status!=='needs_user'&&items.length===0){
-    fallbackUsed=true;const page=await context.newPage();await page.route('**/*',r=>['image','media','font'].includes(r.request().resourceType())?r.abort():r.continue());
-    try{await page.goto(`https://www.amazon.com/dp/${asin}#customerReviews`,{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(3500);sourceUrl=page.url();pageTitle=await page.title().catch(()=>pageTitle);const body=(await page.locator('body').textContent().catch(()=>''))||'';bodyHint=clean(body)?.slice(0,240)||bodyHint;if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`))status='needs_user';else{await extract(page,items);if(items.length)status='success'}}catch(e){navigationError=e.name||'fallback_navigation_error'}await page.close();
-  }
-  if(status==='success'&&(!observedPage||items.length===0))status='partial';
-  await context.close();console.log(JSON.stringify({asin,capturedAt:new Date().toISOString(),sourceUrl,navigationError,status,fallbackUsed,pageTitle,bodyHint,reviews:items}));
+  if(items.length)status='success';else if(status!=='needs_user')status='partial';
+  await page.close();await context.close();console.log(JSON.stringify({asin,capturedAt:new Date().toISOString(),sourceUrl,navigationError,status,fallbackUsed,reviewLink,observedPage,pageTitle,bodyHint,reviews:items}));
 })().catch(e=>{console.error(e.stack||e.message);process.exit(1)});
