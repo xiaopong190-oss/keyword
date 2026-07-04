@@ -3,7 +3,7 @@ import {spawn} from 'node:child_process';
 import {openDatabase,saveProduct,saveKeyword,saveReviews,dashboardData} from './database.mjs';
 import {syncToGist} from './gist-sync.mjs';
 
-const config=JSON.parse(await readFile('monitoring.config.json','utf8'));
+let config=JSON.parse(await readFile('monitoring.config.json','utf8'));if(process.env.GITHUB_GIST_ID&&process.env.GITHUB_GIST_TOKEN){try{const r=await fetch(`https://api.github.com/gists/${process.env.GITHUB_GIST_ID}`,{headers:{accept:'application/vnd.github+json',authorization:`Bearer ${process.env.GITHUB_GIST_TOKEN}`,'x-github-api-version':'2022-11-28'}}),g=await r.json(),remote=g.files?.['config.json']?.content;if(r.ok&&remote)config=JSON.parse(remote)}catch(e){console.error(`Remote config unavailable, using local config: ${e.message}`)}}
 const node=process.execPath;
 const modules='C:/Users/15869/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
 const env={...process.env,NODE_PATH:`${modules};${modules}/.pnpm/node_modules`};
