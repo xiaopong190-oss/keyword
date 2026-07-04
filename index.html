@@ -70,6 +70,7 @@
   </main>
 
   <div class="modal" id="modal" aria-hidden="true"><div class="modal-card"><button class="close" id="closeModal">×</button><p class="eyebrow">NEW TRACKER</p><h2>添加监控商品</h2><p>输入 ASIN，并添加 3–5 个需要跟踪的关键词。</p><label>ASIN<input id="newAsin" placeholder="例如 B0XXXXXXXX" maxlength="10" /></label><label>关键词（每行一个）<textarea id="newKeywords" placeholder="主关键词&#10;细分关键词&#10;长尾关键词"></textarea></label><div class="modal-actions"><button class="ghost" id="cancelModal">取消</button><button class="primary" id="saveProduct">开始监控</button></div></div></div>
+  <div class="modal" id="keywordModal" aria-hidden="true"><div class="modal-card"><button class="close" id="closeKeywordModal">×</button><p class="eyebrow">KEYWORD MANAGER</p><h2>管理关键词</h2><p id="keywordModalAsin">每行一个，最多 5 个关键词。</p><label>关键词列表<textarea id="editKeywords" placeholder="主关键词&#10;细分关键词&#10;长尾关键词"></textarea></label><div class="modal-actions"><button class="ghost" id="cancelKeywordModal">取消</button><button class="primary" id="saveKeywords">保存关键词</button></div></div></div>
   <div class="toast" id="toast">商品已加入监控</div>
   <script src="app.js"></script>
 </body>
