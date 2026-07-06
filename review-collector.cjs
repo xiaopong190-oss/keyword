@@ -11,6 +11,35 @@ const star=s=>{const m=String(s||'').match(/[0-5](?:\.[0-9])?/);return m?Number(
 const date=s=>{const m=String(s||'').match(/(?:on|于)\s+(.+)$/i);if(!m)return null;const d=new Date(m[1]);return Number.isNaN(d.valueOf())?null:d.toISOString().slice(0,10)};
 const validation={seen:0,accepted:0,rejected:0,reasons:{missingBody:0,missingRating:0,missingDate:0,duplicate:0}};
 
+async function gotoWithRetry(page,url,attempts=2){
+  let lastError=null;
+  for(let attempt=1;attempt<=attempts;attempt++){
+    try{
+      await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});
+      await page.waitForTimeout(2500);
+      const body=(await page.locator('body').textContent().catch(()=>''))||'';
+      if(page.url().startsWith('chrome-error:')||/ERR_FAILED|无法访问此网站/i.test(body))throw new Error('chrome_navigation_failed');
+      return null;
+    }catch(error){
+      lastError=error.name||error.message||'navigation_error';
+      if(attempt<attempts)await page.waitForTimeout(3000);
+    }
+  }
+  return lastError;
+}
+
+function reviewUrlForAsin(asin,href){
+  if(href){
+    const match=String(href).match(/\/product-reviews\/([A-Z0-9]{10})/i);
+    if(match&&match[1].toUpperCase()===asin)return new URL(href,'https://www.amazon.com').href;
+  }
+  return `https://www.amazon.com/product-reviews/${asin}/?reviewerType=all_reviews&sortBy=recent`;
+}
+function isSignInPage(url,title,body){
+  if(/\/ap\/signin|openid\.mode=checkid_setup/i.test(url||''))return true;
+  return /Amazon Sign-In|Sign in to continue|Already have an account\?/i.test(`${title||''} ${body||''}`);
+}
+
 async function extract(page,items){
   const cards=page.locator('[data-hook="review"], [data-hook="review-card"]');
   const count=await cards.count();
@@ -24,25 +53,83 @@ async function extract(page,items){
     if(item.rating==null||item.rating<1||item.rating>5){validation.rejected++;validation.reasons.missingRating++;continue}
     if(!item.date){validation.rejected++;validation.reasons.missingDate++;continue}
     item.reviewKey=id||crypto.createHash('sha256').update(`${asin}|${item.date}|${item.title}|${item.body}`).digest('hex');
-    if(items.some(x=>x.reviewKey===item.reviewKey)){validation.rejected++;validation.reasons.duplicate++;continue}items.push(item);validation.accepted++;
+    if(items.some(x=>x.reviewKey===item.reviewKey)){validation.rejected++;validation.reasons.duplicate++;continue}
+    items.push(item);
+    validation.accepted++;
   }
   return count;
 }
 
 (async()=>{
-  const context=await chromium.launchPersistentContext(path.join(__dirname,'.chrome-profile'),{headless:true,channel:'chrome',locale:'en-US',timezoneId:'America/Los_Angeles',viewport:{width:1365,height:900},args:['--disable-blink-features=AutomationControlled']});
-  const items=[];let status='partial',sourceUrl=null,navigationError=null,observedPage=false,fallbackUsed=false,pageTitle=null,bodyHint=null,reviewLink=null;
+  const context=await chromium.launchPersistentContext(path.join(__dirname,'.chrome-profile'),{
+    headless:true,
+    channel:'chrome',
+    locale:'en-US',
+    timezoneId:'America/Los_Angeles',
+    viewport:{width:1365,height:900},
+    args:['--disable-blink-features=AutomationControlled']
+  });
+  const items=[];
+  let status='partial',sourceUrl=null,navigationError=null,observedPage=false,fallbackUsed=false,pageTitle=null,bodyHint=null,reviewLink=null;
   const page=context.pages()[0]||await context.newPage();
-  await page.route('**/*',r=>['image','media','font'].includes(r.request().resourceType())?r.abort():r.continue());
-  // 先打开可访问率更高的商品页，并继承该页面产生的 Cookie 与真实评论链接。
-  try{await page.goto(`https://www.amazon.com/dp/${asin}#customerReviews`,{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(2500);const reviewArea=page.locator('#customerReviews, #reviewsMedley, [data-hook="cr-filter-info-review-rating-count"]');if(await reviewArea.count())await reviewArea.first().scrollIntoViewIfNeeded().catch(()=>{});await page.waitForTimeout(3500)}catch(e){navigationError=e.name||'product_navigation_error'}
-  sourceUrl=page.url();pageTitle=await page.title().catch(()=>null);let body=(await page.locator('body').textContent().catch(()=>''))||'';bodyHint=clean(body)?.slice(0,240)||null;
+  await page.route('**/*',route=>{
+    const type=route.request().resourceType();
+    if(['image','media','font'].includes(type))return route.abort();
+    return route.continue();
+  });
+
+  navigationError=await gotoWithRetry(page,`https://www.amazon.com/dp/${asin}#customerReviews`);
+  const reviewArea=page.locator('#customerReviews, #reviewsMedley, [data-hook="cr-filter-info-review-rating-count"]');
+  if(await reviewArea.count())await reviewArea.first().scrollIntoViewIfNeeded().catch(()=>{});
+  await page.waitForTimeout(3500);
+
+  sourceUrl=page.url();
+  pageTitle=await page.title().catch(()=>null);
+  let body=(await page.locator('body').textContent().catch(()=>''))||'';
+  bodyHint=clean(body)?.slice(0,240)||null;
+
   if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`))status='needs_user';
-  else if(!sourceUrl.startsWith('chrome-error:')&&body.trim().length>=100){observedPage=true;await extract(page,items);const links=page.locator('a[data-hook="see-all-reviews-link-foot"], #reviews-medley-footer a, a[href*="product-reviews"], a[href*="customer-reviews"]');if(await links.count())reviewLink=await links.first().getAttribute('href');if(!reviewLink)reviewLink=`/product-reviews/${asin}/?reviewerType=all_reviews`}
-  // 商品页没有内嵌正文时，使用页面实际给出的链接进入评论页，而不是猜测直链。
-  if(status!=='needs_user'&&reviewLink){
-    fallbackUsed=true;for(let pageNo=1;pageNo<=maxPages;pageNo++){try{const u=new URL(reviewLink,'https://www.amazon.com');u.searchParams.set('sortBy','recent');u.searchParams.set('pageNumber',String(pageNo));await page.goto(u.href,{waitUntil:'domcontentloaded',timeout:30000});await page.waitForTimeout(2500);sourceUrl=page.url();pageTitle=await page.title().catch(()=>pageTitle);body=(await page.locator('body').textContent().catch(()=>''))||'';if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`)){status='needs_user';break}if(sourceUrl.startsWith('chrome-error:')||body.trim().length<100)break;observedPage=true;const before=items.length;await extract(page,items);if(items.length===before)break}catch(e){navigationError=e.name||'review_navigation_error';break}}
+  else if(isSignInPage(sourceUrl,pageTitle,body))status='needs_user';
+  else if(!sourceUrl.startsWith('chrome-error:')&&body.trim().length>=100){
+    observedPage=true;
+    await extract(page,items);
+    const links=page.locator('a[data-hook="see-all-reviews-link-foot"], #reviews-medley-footer a, a[href*="product-reviews"], a[href*="customer-reviews"]');
+    if(await links.count())reviewLink=await links.first().getAttribute('href');
+    reviewLink=reviewUrlForAsin(asin,reviewLink);
   }
-  if(items.length)status='success';else if(status!=='needs_user')status='partial';
-  await page.close();await context.close();console.log(JSON.stringify({asin,capturedAt:new Date().toISOString(),sourceUrl,navigationError,status,fallbackUsed,reviewLink,observedPage,pageTitle,bodyHint,validation,reviews:items}));
-})().catch(e=>{console.error(e.stack||e.message);process.exit(1)});
+
+  if(status!=='needs_user'&&reviewLink&&!items.length){
+    fallbackUsed=true;
+    for(let pageNo=1;pageNo<=maxPages;pageNo++){
+      try{
+        const u=new URL(reviewLink);
+        u.searchParams.set('sortBy','recent');
+        u.searchParams.set('pageNumber',String(pageNo));
+        const reviewNavError=await gotoWithRetry(page,u.href);
+        if(reviewNavError){navigationError=reviewNavError;break}
+        sourceUrl=page.url();
+        pageTitle=await page.title().catch(()=>pageTitle);
+        body=(await page.locator('body').textContent().catch(()=>''))||'';
+        if(/captcha|robot check|enter the characters/i.test(`${pageTitle} ${body}`)){status='needs_user';break}
+        if(isSignInPage(sourceUrl,pageTitle,body)){status='needs_user';break}
+        if(sourceUrl.startsWith('chrome-error:')||body.trim().length<100)break;
+        observedPage=true;
+        const before=items.length;
+        await extract(page,items);
+        if(items.length===before)break;
+      }catch(error){
+        navigationError=error.name||'review_navigation_error';
+        break;
+      }
+    }
+  }
+
+  if(items.length)status='success';
+  else if(status!=='needs_user')status='partial';
+
+  await context.close();
+  console.log(JSON.stringify({asin,capturedAt:new Date().toISOString(),sourceUrl,navigationError,status,fallbackUsed,reviewLink,observedPage,pageTitle,bodyHint,validation,reviews:items}));
+})().catch(error=>{
+  console.error(error.stack||error.message);
+  process.exit(1);
+});

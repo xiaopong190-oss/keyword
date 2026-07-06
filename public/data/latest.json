@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-04T13:09:20.255Z",
+  "generatedAt": "2026-07-06T04:11:01.875Z",
   "products": [
     {
-      "id": 6,
+      "id": 7,
       "asin": "B0GJ3XVBHB",
-      "captured_at": "2026-07-04T12:48:12.447Z",
+      "captured_at": "2026-07-05T10:48:40.789Z",
       "status": "success",
       "title": "Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)",
       "price": "$32.99",
-      "rating": 4.5,
-      "reviews": 71,
-      "bsr_json": "[{\"rank\":61987,\"category\":\"Home & Kitchen\"},{\"rank\":85,\"category\":\"Electric Kettles\"}]",
-      "source_url": "https://www.amazon.com/dp/B0GJ3XVBHB",
-      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"pageAsin\":\"B0GJ3XVBHB\",\"canonicalAsin\":\"B0GJ3XVBHB\",\"asinVerified\":true,\"marketplace\":\"amazon.com\",\"capturedAt\":\"2026-07-04T12:48:12.447Z\",\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB\",\"status\":\"success\",\"navigationError\":null,\"pageTitle\":\"Amazon.com: FuseBrew Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green): Home & Kitchen\",\"title\":\"Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)\",\"price\":\"$32.99\",\"rating\":4.5,\"reviews\":71,\"bsr\":[{\"rank\":61987,\"category\":\"Home & Kitchen\"},{\"rank\":85,\"category\":\"Electric Kettles\"}],\"bsrEvidence\":\"Product information Item details Brand Name FuseBrew Included Components Kettle base Model Name Gooseneck Electric Kettle Model Number FB001 Best Sellers Rank #61,987 in Home & Kitchen (See Top 100 in Home & Kitchen) #85 in Electric Kettles ASIN B0GJ3XVBHB Customer Reviews 4.5 4.5 out of 5 stars (71) var dpAcrHasRegisteredArcLinkClickAction; P.when('A', 'ready').execute(function(A) { if (dpAcrHasRegisteredArcLinkClickAction !== true) { dpAcrHasRegisteredArcLinkClickAction = true; A.declarative( 'acrLink-click-metrics', 'click', { \\\"allowLinkDefault\\\": true }, function (event) { if (window.ue) { ue.count(\\\"acrLinkClickCount\\\", (ue.count(\\\"acrLinkClickCount\\\") || 0) + 1); } } ); } }); P.when('A', 'cf').execute(function(A) { A.declarative('acrStarsLink-click-metrics', 'click', { \\\"allowLinkDefault\\\" \",\"embeddedReviews\":[],\"captcha\":false,\"notes\":[],\"validEmbeddedReviews\":[]}",
+      "rating": 4.4,
+      "reviews": 73,
+      "bsr_json": "[{\"rank\":62480,\"category\":\"Home & Kitchen\"},{\"rank\":87,\"category\":\"Electric Kettles\"}]",
+      "source_url": "https://www.amazon.com/dp/B0GJ3XVBHB?th=1",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"strategy\":\"chrome-cdp\",\"reusedTab\":true,\"pageAsin\":\"B0GJ3XVBHB\",\"canonicalAsin\":\"B0GJ3XVBHB\",\"asinVerified\":true,\"marketplace\":\"amazon.com\",\"capturedAt\":\"2026-07-05T10:48:40.789Z\",\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB?th=1\",\"status\":\"success\",\"navigationError\":null,\"pageTitle\":\"Amazon.com: FuseBrew Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green): Home & Kitchen\",\"title\":\"Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)\",\"price\":\"$32.99\",\"rating\":4.4,\"reviews\":73,\"bsr\":[{\"rank\":62480,\"category\":\"Home & Kitchen\"},{\"rank\":87,\"category\":\"Electric Kettles\"}],\"bsrEvidence\":\"Product information Item details Brand Name FuseBrew Included Components Kettle base Model Name Gooseneck Electric Kettle Model Number FB001 Best Sellers Rank #62,480 in Home & Kitchen (See Top 100 in Home & Kitchen) #87 in Electric Kettles ASIN B0GJ3XVBHB Customer Reviews 4.4 4.4 out of 5 stars (73) var dpAcrHasRegisteredArcLinkClickAction; P.when('A', 'ready').execute(function(A) { if (dpAcrHasRegisteredArcLinkClickAction !== true) { dpAcrHasRegisteredArcLinkClickAction = true; A.declarative( 'acrLink-click-metrics', 'click', { \\\"allowLinkDefault\\\": true }, function (event) { if (window.ue) { ue.count(\\\"acrLinkClickCount\\\", (ue.count(\\\"acrLinkClickCount\\\") || 0) + 1); } } ); } }); P.when('A', 'cf').execute(function(A) { A.declarative('acrStarsLink-click-metrics', 'click', { \\\"allowLinkDefault\\\" \",\"embeddedReviews\":[],\"captcha\":false,\"notes\":[],\"validEmbeddedReviews\":[],\"strategyResults\":[{\"strategy\":\"chrome-cdp\",\"ok\":true,\"status\":\"success\",\"score\":120,\"missing\":[],\"reasons\":[\"采集成功\"],\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB?th=1\"},{\"strategy\":\"chrome-proxy\",\"ok\":true,\"status\":\"success\",\"score\":120,\"missing\":[],\"reasons\":[\"采集成功\"],\"sourceUrl\":\"https://www.amazon.com/dp/B0GJ3XVBHB\"},{\"strategy\":\"chrome-system\",\"ok\":false,\"status\":\"error\",\"score\":-100,\"missing\":[\"all\"],\"reasons\":[\"browserType.launchPersistentContext: Target page, context or browser has been closed\\nBrowser logs:\\n\\n<launching> C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\.chrome-profile --remote-debugging-pipe about:blank\\n<launched> pid=28196\\nCall log:\\n  - <launching> C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\.chrome-profile --remote-debugging-pipe about:blank\\n  - <launched> pid=28196\\n  - [pid=28196] <gracefully close start>\\n  - [pid=28196] <kill>\\n  - [pid=28196] <will force kill>\\n  - [pid=28196] taskkill stderr: ERROR: The process \\\"28196\\\" not found.\\n  - [pid=28196] <process did exit: exitCode=21, signal=null>\\n  - [pid=28196] starting temporary directories cleanup\\n  - [pid=28196] finished temporary directories cleanup\\n  - [pid=28196] <gracefully close end>\\n\\n    at async D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\playwright-collector.cjs:22:19\"],\"sourceUrl\":null}]}",
       "bsr": [
         {
-          "rank": 61987,
+          "rank": 62480,
           "category": "Home & Kitchen"
         },
         {
-          "rank": 85,
+          "rank": 87,
           "category": "Electric Kettles"
         }
       ]
@@ -27,14 +27,28 @@
   ],
   "keywords": [
     {
-      "id": 6,
+      "id": 8,
+      "asin": "B0GJ3XVBHB",
+      "keyword": "Pour Over Kettle",
+      "captured_at": "2026-07-05T10:53:32.710Z",
+      "organic_rank": 70,
+      "page": 2,
+      "status": "found",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"Pour Over Kettle\",\"strategy\":\"chrome-proxy\",\"capturedAt\":\"2026-07-05T10:53:32.710Z\",\"organicRank\":70,\"sponsoredRank\":null,\"page\":2,\"sponsoredPage\":null,\"status\":\"found\",\"checkedPages\":3,\"maxPages\":3,\"sponsoredSeen\":false,\"organicProductsChecked\":116,\"sponsoredProductsChecked\":3,\"sourceUrl\":\"https://www.amazon.com/s?k=Pour%20Over%20Kettle&page=3\",\"navigationError\":\"TimeoutError\",\"organicNote\":\"自然排名 #70（第 2 页）\",\"sponsoredNote\":\"前 3 页无广告排名\",\"strategyResults\":[{\"strategy\":\"chrome-proxy\",\"ok\":true,\"status\":\"found\",\"score\":90,\"missing\":[\"sponsoredRank\"],\"reasons\":[\"导航失败：TimeoutError\",\"自然排名 #70\",\"自然排名 #70（第 2 页）\",\"前 3 页无广告排名\"],\"sourceUrl\":\"https://www.amazon.com/s?k=Pour%20Over%20Kettle&page=3\"},{\"strategy\":\"chrome-cdp\",\"ok\":false,\"status\":\"needs_user\",\"score\":-50,\"missing\":[\"checkedPages\",\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：waiting_for_page\",\"需要人工验证（验证码/登录）\"],\"sourceUrl\":null},{\"strategy\":\"chrome-system\",\"ok\":false,\"status\":\"error\",\"score\":-100,\"missing\":[\"all\"],\"reasons\":[\"browserType.launchPersistentContext: Target page, context or browser has been closed\\nBrowser logs:\\n\\n<launching> C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\.chrome-profile --remote-debugging-pipe about:blank\\n<launched> pid=50940\\nCall log:\\n  - <launching> C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\.chrome-profile --remote-debugging-pipe about:blank\\n  - <launched> pid=50940\\n  - [pid=50940] <gracefully close start>\\n  - [pid=50940] <kill>\\n  - [pid=50940] <will force kill>\\n  - [pid=50940] taskkill stderr: ERROR: The process \\\"50940\\\" not found.\\n  - [pid=50940] <process did exit: exitCode=21, signal=null>\\n  - [pid=50940] starting temporary directories cleanup\\n  - [pid=50940] finished temporary directories cleanup\\n  - [pid=50940] <gracefully close end>\\n\\n    at async D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\keyword-collector.cjs:40:19\"],\"sourceUrl\":null}]}",
+      "sponsored_rank": null,
+      "sponsored_page": null
+    },
+    {
+      "id": 7,
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
-      "captured_at": "2026-07-04T12:48:14.400Z",
+      "captured_at": "2026-07-05T09:29:37.325Z",
       "organic_rank": null,
-      "page": 1,
-      "status": "sponsored_only",
-      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-04T12:48:14.400Z\",\"organicRank\":null,\"page\":1,\"status\":\"sponsored_only\",\"checkedPages\":1,\"sourceUrl\":\"https://www.amazon.com/s?k=gooseneck+electric+kettle\",\"navigationError\":null}"
+      "page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"strategy\":\"chrome-system\",\"capturedAt\":\"2026-07-05T09:29:37.325Z\",\"organicRank\":null,\"sponsoredRank\":null,\"page\":null,\"sponsoredPage\":null,\"status\":\"not_found_within_range\",\"checkedPages\":1,\"maxPages\":3,\"sponsoredSeen\":false,\"organicProductsChecked\":0,\"sponsoredProductsChecked\":0,\"sourceUrl\":\"chrome-error://chromewebdata/\",\"navigationError\":\"TimeoutError\",\"organicNote\":\"前 1 页无自然排名\",\"sponsoredNote\":\"前 1 页无广告排名\",\"strategyResults\":[{\"strategy\":\"chrome-system\",\"ok\":false,\"status\":\"partial\",\"score\":0,\"missing\":[\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：TimeoutError\",\"搜索页未加载完成\"],\"sourceUrl\":\"chrome-error://chromewebdata/\"},{\"strategy\":\"pw-chromium\",\"ok\":false,\"status\":\"partial\",\"score\":-20,\"missing\":[\"checkedPages\",\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：Error\",\"搜索页未加载完成\"],\"sourceUrl\":\"chrome-error://chromewebdata/\"},{\"strategy\":\"pw-fullload\",\"ok\":false,\"status\":\"partial\",\"score\":-20,\"missing\":[\"checkedPages\",\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：Error\",\"搜索页未加载完成\"],\"sourceUrl\":\"chrome-error://chromewebdata/\"}]}",
+      "sponsored_rank": null,
+      "sponsored_page": null
     }
   ],
   "productHistory": [
@@ -122,6 +136,23 @@
           "category": "Electric Kettles"
         }
       ]
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "captured_at": "2026-07-05T10:48:40.789Z",
+      "reviews": 73,
+      "rating": 4.4,
+      "bsr_json": "[{\"rank\":62480,\"category\":\"Home & Kitchen\"},{\"rank\":87,\"category\":\"Electric Kettles\"}]",
+      "bsr": [
+        {
+          "rank": 62480,
+          "category": "Home & Kitchen"
+        },
+        {
+          "rank": 87,
+          "category": "Electric Kettles"
+        }
+      ]
     }
   ],
   "keywordHistory": [
@@ -130,43 +161,383 @@
       "keyword": "gooseneck electric kettle",
       "captured_at": "2026-07-02T08:55:29.851Z",
       "organic_rank": null,
-      "status": "not_found_within_range"
+      "sponsored_rank": null,
+      "page": null,
+      "sponsored_page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T08:55:29.851Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
     },
     {
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
       "captured_at": "2026-07-02T15:35:50.290Z",
       "organic_rank": null,
-      "status": "not_found_within_range"
+      "sponsored_rank": null,
+      "page": null,
+      "sponsored_page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T15:35:50.290Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
     },
     {
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
       "captured_at": "2026-07-02T16:31:51.173Z",
       "organic_rank": null,
-      "status": "not_found_within_range"
+      "sponsored_rank": null,
+      "page": null,
+      "sponsored_page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T16:31:51.173Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
     },
     {
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
       "captured_at": "2026-07-02T16:32:35.842Z",
       "organic_rank": null,
-      "status": "not_found_within_range"
+      "sponsored_rank": null,
+      "page": null,
+      "sponsored_page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T16:32:35.842Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
     },
     {
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
       "captured_at": "2026-07-02T16:40:22.589Z",
       "organic_rank": null,
-      "status": "not_found_within_range"
+      "sponsored_rank": null,
+      "page": null,
+      "sponsored_page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-02T16:40:22.589Z\",\"organicRank\":null,\"page\":null,\"status\":\"not_found_within_range\",\"checkedPages\":2}"
     },
     {
       "asin": "B0GJ3XVBHB",
       "keyword": "gooseneck electric kettle",
       "captured_at": "2026-07-04T12:48:14.400Z",
       "organic_rank": null,
-      "status": "sponsored_only"
+      "sponsored_rank": null,
+      "page": 1,
+      "sponsored_page": null,
+      "status": "sponsored_only",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"capturedAt\":\"2026-07-04T12:48:14.400Z\",\"organicRank\":null,\"page\":1,\"status\":\"sponsored_only\",\"checkedPages\":1,\"sourceUrl\":\"https://www.amazon.com/s?k=gooseneck+electric+kettle\",\"navigationError\":null}"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "gooseneck electric kettle",
+      "captured_at": "2026-07-05T09:29:37.325Z",
+      "organic_rank": null,
+      "sponsored_rank": null,
+      "page": null,
+      "sponsored_page": null,
+      "status": "not_found_within_range",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"gooseneck electric kettle\",\"strategy\":\"chrome-system\",\"capturedAt\":\"2026-07-05T09:29:37.325Z\",\"organicRank\":null,\"sponsoredRank\":null,\"page\":null,\"sponsoredPage\":null,\"status\":\"not_found_within_range\",\"checkedPages\":1,\"maxPages\":3,\"sponsoredSeen\":false,\"organicProductsChecked\":0,\"sponsoredProductsChecked\":0,\"sourceUrl\":\"chrome-error://chromewebdata/\",\"navigationError\":\"TimeoutError\",\"organicNote\":\"前 1 页无自然排名\",\"sponsoredNote\":\"前 1 页无广告排名\",\"strategyResults\":[{\"strategy\":\"chrome-system\",\"ok\":false,\"status\":\"partial\",\"score\":0,\"missing\":[\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：TimeoutError\",\"搜索页未加载完成\"],\"sourceUrl\":\"chrome-error://chromewebdata/\"},{\"strategy\":\"pw-chromium\",\"ok\":false,\"status\":\"partial\",\"score\":-20,\"missing\":[\"checkedPages\",\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：Error\",\"搜索页未加载完成\"],\"sourceUrl\":\"chrome-error://chromewebdata/\"},{\"strategy\":\"pw-fullload\",\"ok\":false,\"status\":\"partial\",\"score\":-20,\"missing\":[\"checkedPages\",\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：Error\",\"搜索页未加载完成\"],\"sourceUrl\":\"chrome-error://chromewebdata/\"}]}"
+    },
+    {
+      "asin": "B0GJ3XVBHB",
+      "keyword": "Pour Over Kettle",
+      "captured_at": "2026-07-05T10:53:32.710Z",
+      "organic_rank": 70,
+      "sponsored_rank": null,
+      "page": 2,
+      "sponsored_page": null,
+      "status": "found",
+      "raw_json": "{\"asin\":\"B0GJ3XVBHB\",\"keyword\":\"Pour Over Kettle\",\"strategy\":\"chrome-proxy\",\"capturedAt\":\"2026-07-05T10:53:32.710Z\",\"organicRank\":70,\"sponsoredRank\":null,\"page\":2,\"sponsoredPage\":null,\"status\":\"found\",\"checkedPages\":3,\"maxPages\":3,\"sponsoredSeen\":false,\"organicProductsChecked\":116,\"sponsoredProductsChecked\":3,\"sourceUrl\":\"https://www.amazon.com/s?k=Pour%20Over%20Kettle&page=3\",\"navigationError\":\"TimeoutError\",\"organicNote\":\"自然排名 #70（第 2 页）\",\"sponsoredNote\":\"前 3 页无广告排名\",\"strategyResults\":[{\"strategy\":\"chrome-proxy\",\"ok\":true,\"status\":\"found\",\"score\":90,\"missing\":[\"sponsoredRank\"],\"reasons\":[\"导航失败：TimeoutError\",\"自然排名 #70\",\"自然排名 #70（第 2 页）\",\"前 3 页无广告排名\"],\"sourceUrl\":\"https://www.amazon.com/s?k=Pour%20Over%20Kettle&page=3\"},{\"strategy\":\"chrome-cdp\",\"ok\":false,\"status\":\"needs_user\",\"score\":-50,\"missing\":[\"checkedPages\",\"organicRank\",\"sponsoredRank\"],\"reasons\":[\"导航失败：waiting_for_page\",\"需要人工验证（验证码/登录）\"],\"sourceUrl\":null},{\"strategy\":\"chrome-system\",\"ok\":false,\"status\":\"error\",\"score\":-100,\"missing\":[\"all\"],\"reasons\":[\"browserType.launchPersistentContext: Target page, context or browser has been closed\\nBrowser logs:\\n\\n<launching> C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\.chrome-profile --remote-debugging-pipe about:blank\\n<launched> pid=50940\\nCall log:\\n  - <launching> C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\.chrome-profile --remote-debugging-pipe about:blank\\n  - <launched> pid=50940\\n  - [pid=50940] <gracefully close start>\\n  - [pid=50940] <kill>\\n  - [pid=50940] <will force kill>\\n  - [pid=50940] taskkill stderr: ERROR: The process \\\"50940\\\" not found.\\n  - [pid=50940] <process did exit: exitCode=21, signal=null>\\n  - [pid=50940] starting temporary directories cleanup\\n  - [pid=50940] finished temporary directories cleanup\\n  - [pid=50940] <gracefully close end>\\n\\n    at async D:\\\\systemDir\\\\Documents\\\\抓取asin，形成表格\\\\keyword-collector.cjs:40:19\"],\"sourceUrl\":null}]}"
     }
   ],
-  "reviewItems": []
+  "reviewItems": [],
+  "collectionHealth": {
+    "generatedAt": "2026-07-06T04:11:01.875Z",
+    "reviews": [],
+    "stageFailures": [
+      {
+        "asin": "B0GJ3XVBHB",
+        "stage": "product",
+        "reasons": [
+          "chrome-cdp：导航失败：waiting_for_page；需要人工验证（验证码/登录）；请先运行 start-chrome-debug.cmd",
+          "chrome-system：browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=48608\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=48608\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=48608] <kill>\u001b[22m\n\u001b[2m  - [pid=48608] <will force kill>\u001b[22m\n\u001b[2m  - [pid=48608] taskkill stderr: ERROR: The process \"48608\" not found.\u001b[22m\n\u001b[2m  - [pid=48608] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=48608] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\playwright-collector.cjs:22:19"
+        ],
+        "missing": [
+          "title",
+          "bsr",
+          "price",
+          "rating",
+          "reviews"
+        ],
+        "attempts": [
+          {
+            "strategy": "chrome-cdp",
+            "ok": false,
+            "status": "needs_user",
+            "score": -50,
+            "missing": [
+              "title",
+              "bsr",
+              "price",
+              "rating",
+              "reviews"
+            ],
+            "reasons": [
+              "导航失败：waiting_for_page",
+              "需要人工验证（验证码/登录）",
+              "请先运行 start-chrome-debug.cmd"
+            ],
+            "sourceUrl": null
+          },
+          {
+            "strategy": "chrome-system",
+            "ok": false,
+            "status": "error",
+            "score": -100,
+            "missing": [
+              "all"
+            ],
+            "reasons": [
+              "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=48608\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=48608\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=48608] <kill>\u001b[22m\n\u001b[2m  - [pid=48608] <will force kill>\u001b[22m\n\u001b[2m  - [pid=48608] taskkill stderr: ERROR: The process \"48608\" not found.\u001b[22m\n\u001b[2m  - [pid=48608] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=48608] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\playwright-collector.cjs:22:19"
+            ],
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "asin": "B0GJ3XVBHB",
+        "keyword": "gooseneck electric kettle",
+        "stage": "keyword",
+        "reasons": [
+          "chrome-cdp：导航失败：waiting_for_page；需要人工验证（验证码/登录）",
+          "chrome-system：browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=52848\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=52848\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=52848] <kill>\u001b[22m\n\u001b[2m  - [pid=52848] <will force kill>\u001b[22m\n\u001b[2m  - [pid=52848] taskkill stderr: ERROR: The process \"52848\" not found.\u001b[22m\n\u001b[2m  - [pid=52848] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=52848] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+        ],
+        "missing": [
+          "checkedPages",
+          "organicRank",
+          "sponsoredRank"
+        ],
+        "attempts": [
+          {
+            "strategy": "chrome-cdp",
+            "ok": false,
+            "status": "needs_user",
+            "score": -50,
+            "missing": [
+              "checkedPages",
+              "organicRank",
+              "sponsoredRank"
+            ],
+            "reasons": [
+              "导航失败：waiting_for_page",
+              "需要人工验证（验证码/登录）"
+            ],
+            "sourceUrl": null
+          },
+          {
+            "strategy": "chrome-system",
+            "ok": false,
+            "status": "error",
+            "score": -100,
+            "missing": [
+              "all"
+            ],
+            "reasons": [
+              "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=52848\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=52848\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=52848] <kill>\u001b[22m\n\u001b[2m  - [pid=52848] <will force kill>\u001b[22m\n\u001b[2m  - [pid=52848] taskkill stderr: ERROR: The process \"52848\" not found.\u001b[22m\n\u001b[2m  - [pid=52848] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=52848] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+            ],
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "asin": "B0GJ3XVBHB",
+        "keyword": "Pour Over Kettle",
+        "stage": "keyword",
+        "reasons": [
+          "chrome-cdp：导航失败：waiting_for_page；需要人工验证（验证码/登录）",
+          "chrome-system：browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=14016\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=14016\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=14016] <kill>\u001b[22m\n\u001b[2m  - [pid=14016] <will force kill>\u001b[22m\n\u001b[2m  - [pid=14016] taskkill stderr: ERROR: The process \"14016\" not found.\u001b[22m\n\u001b[2m  - [pid=14016] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=14016] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+        ],
+        "missing": [
+          "checkedPages",
+          "organicRank",
+          "sponsoredRank"
+        ],
+        "attempts": [
+          {
+            "strategy": "chrome-cdp",
+            "ok": false,
+            "status": "needs_user",
+            "score": -50,
+            "missing": [
+              "checkedPages",
+              "organicRank",
+              "sponsoredRank"
+            ],
+            "reasons": [
+              "导航失败：waiting_for_page",
+              "需要人工验证（验证码/登录）"
+            ],
+            "sourceUrl": null
+          },
+          {
+            "strategy": "chrome-system",
+            "ok": false,
+            "status": "error",
+            "score": -100,
+            "missing": [
+              "all"
+            ],
+            "reasons": [
+              "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=14016\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=14016\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=14016] <kill>\u001b[22m\n\u001b[2m  - [pid=14016] <will force kill>\u001b[22m\n\u001b[2m  - [pid=14016] taskkill stderr: ERROR: The process \"14016\" not found.\u001b[22m\n\u001b[2m  - [pid=14016] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=14016] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+            ],
+            "sourceUrl": null
+          }
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "stage": "config",
+        "asin": "B0GJ3XVBHB",
+        "ok": true
+      },
+      {
+        "stage": "product",
+        "asin": "B0GJ3XVBHB",
+        "ok": false,
+        "missing": [
+          "title",
+          "bsr",
+          "price",
+          "rating",
+          "reviews"
+        ],
+        "reasons": [
+          "chrome-cdp：导航失败：waiting_for_page；需要人工验证（验证码/登录）；请先运行 start-chrome-debug.cmd",
+          "chrome-system：browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=48608\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=48608\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=48608] <kill>\u001b[22m\n\u001b[2m  - [pid=48608] <will force kill>\u001b[22m\n\u001b[2m  - [pid=48608] taskkill stderr: ERROR: The process \"48608\" not found.\u001b[22m\n\u001b[2m  - [pid=48608] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=48608] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\playwright-collector.cjs:22:19"
+        ],
+        "attempts": [
+          {
+            "strategy": "chrome-cdp",
+            "ok": false,
+            "status": "needs_user",
+            "score": -50,
+            "missing": [
+              "title",
+              "bsr",
+              "price",
+              "rating",
+              "reviews"
+            ],
+            "reasons": [
+              "导航失败：waiting_for_page",
+              "需要人工验证（验证码/登录）",
+              "请先运行 start-chrome-debug.cmd"
+            ],
+            "sourceUrl": null
+          },
+          {
+            "strategy": "chrome-system",
+            "ok": false,
+            "status": "error",
+            "score": -100,
+            "missing": [
+              "all"
+            ],
+            "reasons": [
+              "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=48608\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=48608\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=48608] <kill>\u001b[22m\n\u001b[2m  - [pid=48608] <will force kill>\u001b[22m\n\u001b[2m  - [pid=48608] taskkill stderr: ERROR: The process \"48608\" not found.\u001b[22m\n\u001b[2m  - [pid=48608] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=48608] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=48608] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\playwright-collector.cjs:22:19"
+            ],
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "stage": "keyword",
+        "asin": "B0GJ3XVBHB",
+        "keyword": "gooseneck electric kettle",
+        "ok": false,
+        "missing": [
+          "checkedPages",
+          "organicRank",
+          "sponsoredRank"
+        ],
+        "reasons": [
+          "chrome-cdp：导航失败：waiting_for_page；需要人工验证（验证码/登录）",
+          "chrome-system：browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=52848\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=52848\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=52848] <kill>\u001b[22m\n\u001b[2m  - [pid=52848] <will force kill>\u001b[22m\n\u001b[2m  - [pid=52848] taskkill stderr: ERROR: The process \"52848\" not found.\u001b[22m\n\u001b[2m  - [pid=52848] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=52848] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+        ],
+        "attempts": [
+          {
+            "strategy": "chrome-cdp",
+            "ok": false,
+            "status": "needs_user",
+            "score": -50,
+            "missing": [
+              "checkedPages",
+              "organicRank",
+              "sponsoredRank"
+            ],
+            "reasons": [
+              "导航失败：waiting_for_page",
+              "需要人工验证（验证码/登录）"
+            ],
+            "sourceUrl": null
+          },
+          {
+            "strategy": "chrome-system",
+            "ok": false,
+            "status": "error",
+            "score": -100,
+            "missing": [
+              "all"
+            ],
+            "reasons": [
+              "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=52848\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=52848\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=52848] <kill>\u001b[22m\n\u001b[2m  - [pid=52848] <will force kill>\u001b[22m\n\u001b[2m  - [pid=52848] taskkill stderr: ERROR: The process \"52848\" not found.\u001b[22m\n\u001b[2m  - [pid=52848] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=52848] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=52848] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+            ],
+            "sourceUrl": null
+          }
+        ]
+      },
+      {
+        "stage": "keyword",
+        "asin": "B0GJ3XVBHB",
+        "keyword": "Pour Over Kettle",
+        "ok": false,
+        "missing": [
+          "checkedPages",
+          "organicRank",
+          "sponsoredRank"
+        ],
+        "reasons": [
+          "chrome-cdp：导航失败：waiting_for_page；需要人工验证（验证码/登录）",
+          "chrome-system：browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=14016\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=14016\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=14016] <kill>\u001b[22m\n\u001b[2m  - [pid=14016] <will force kill>\u001b[22m\n\u001b[2m  - [pid=14016] taskkill stderr: ERROR: The process \"14016\" not found.\u001b[22m\n\u001b[2m  - [pid=14016] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=14016] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+        ],
+        "attempts": [
+          {
+            "strategy": "chrome-cdp",
+            "ok": false,
+            "status": "needs_user",
+            "score": -50,
+            "missing": [
+              "checkedPages",
+              "organicRank",
+              "sponsoredRank"
+            ],
+            "reasons": [
+              "导航失败：waiting_for_page",
+              "需要人工验证（验证码/登录）"
+            ],
+            "sourceUrl": null
+          },
+          {
+            "strategy": "chrome-system",
+            "ok": false,
+            "status": "error",
+            "score": -100,
+            "missing": [
+              "all"
+            ],
+            "reasons": [
+              "browserType.launchPersistentContext: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\n<launched> pid=14016\nCall log:\n\u001b[2m  - <launching> C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\\systemDir\\Documents\\抓取asin，形成表格\\.chrome-profile --remote-debugging-pipe about:blank\u001b[22m\n\u001b[2m  - <launched> pid=14016\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=14016] <kill>\u001b[22m\n\u001b[2m  - [pid=14016] <will force kill>\u001b[22m\n\u001b[2m  - [pid=14016] taskkill stderr: ERROR: The process \"14016\" not found.\u001b[22m\n\u001b[2m  - [pid=14016] <process did exit: exitCode=21, signal=null>\u001b[22m\n\u001b[2m  - [pid=14016] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14016] <gracefully close end>\u001b[22m\n\n    at async D:\\systemDir\\Documents\\抓取asin，形成表格\\keyword-collector.cjs:40:19"
+            ],
+            "sourceUrl": null
+          }
+        ]
+      }
+    ]
+  }
 }

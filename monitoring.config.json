@@ -1,20 +1,32 @@
 {
   "marketplace": "amazon.com",
-  "maxSearchPages": 2,
+  "maxSearchPages": 3,
   "maxReviewPages": 1,
-  "retryAttempts": 3,
+  "retryAttempts": 2,
   "retryDelaysMs": [
-    30000,
-    120000
+    5000,
+    15000
   ],
-  "stageTimeoutMs": 60000,
+  "stageTimeoutMs": 180000,
+  "productTimeoutMs": 90000,
+  "keywordTimeoutMs": 240000,
+  "reviewTimeoutMs": 120000,
   "delayBetweenRequestsMs": 12000,
+  "collectionMode": "assist",
+  "chromeDebugUrl": "http://127.0.0.1:9222",
+  "collectionStrategies": ["chrome-cdp", "chrome-system"],
+  "proxy": {
+    "enabled": false,
+    "rotation": "round-robin",
+    "servers": []
+  },
   "products": [
     {
       "asin": "B0GJ3XVBHB",
       "enabled": true,
       "keywords": [
-        "gooseneck electric kettle"
+        "gooseneck electric kettle",
+        "Pour Over Kettle"
       ],
       "competitors": []
     }

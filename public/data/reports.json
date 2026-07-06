@@ -1,5 +1,103 @@
 [
   {
+    "id": "period-B0GJ3XVBHB-1783217021403",
+    "type": "period",
+    "asin": "B0GJ3XVBHB",
+    "days": 7,
+    "createdAt": "2026-07-05T02:03:41.404Z",
+    "provider": "queued",
+    "analysis": null,
+    "data": {
+      "asin": "B0GJ3XVBHB",
+      "days": 7,
+      "generatedAt": "2026-07-05T02:03:41.330Z",
+      "snapshotCount": 5,
+      "product": {
+        "first": {
+          "captured_at": "2026-07-02T08:55:27.524Z",
+          "title": "Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)",
+          "price": null,
+          "rating": 4.5,
+          "reviews": 70,
+          "bsr_json": "[{\"rank\":52912,\"category\":\"Home & Kitchen\"},{\"rank\":76,\"category\":\"Electric Kettles\"}]",
+          "status": "success",
+          "bsr": [
+            {
+              "rank": 52912,
+              "category": "Home & Kitchen"
+            },
+            {
+              "rank": 76,
+              "category": "Electric Kettles"
+            }
+          ]
+        },
+        "last": {
+          "captured_at": "2026-07-04T12:48:12.447Z",
+          "title": "Gooseneck Electric Kettle 0.8L, 1200W Fast Boiling Stainless Steel – Auto Shut-Off, Precision Pour Over Kettle for Coffee & Tea, Ideal for Small Kitchen, RV, Travel (Green)",
+          "price": "$32.99",
+          "rating": 4.5,
+          "reviews": 71,
+          "bsr_json": "[{\"rank\":61987,\"category\":\"Home & Kitchen\"},{\"rank\":85,\"category\":\"Electric Kettles\"}]",
+          "status": "success",
+          "bsr": [
+            {
+              "rank": 61987,
+              "category": "Home & Kitchen"
+            },
+            {
+              "rank": 85,
+              "category": "Electric Kettles"
+            }
+          ]
+        },
+        "reviewDelta": 1,
+        "ratingDelta": 0
+      },
+      "keywords": [
+        {
+          "keyword": "gooseneck electric kettle",
+          "first": {
+            "keyword": "gooseneck electric kettle",
+            "organic_rank": null,
+            "page": null,
+            "status": "not_found_within_range",
+            "captured_at": "2026-07-02T08:55:29.851Z"
+          },
+          "last": {
+            "keyword": "gooseneck electric kettle",
+            "organic_rank": null,
+            "page": 1,
+            "status": "sponsored_only",
+            "captured_at": "2026-07-04T12:48:14.400Z"
+          },
+          "change": null
+        }
+      ],
+      "reviews": {
+        "newCount": 0,
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "items": []
+      }
+    },
+    "attempts": [
+      {
+        "provider": "codex-local",
+        "error": "spawn codex ENOENT"
+      },
+      {
+        "provider": "deepseek-api",
+        "error": "deepseek_api_key_missing"
+      },
+      {
+        "provider": "openai-api",
+        "error": "openai_api_key_missing"
+      }
+    ]
+  },
+  {
     "id": "period-B0GJ3XVBHB-1783035511698",
     "type": "period",
     "asin": "B0GJ3XVBHB",
